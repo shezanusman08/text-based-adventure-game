@@ -96,7 +96,7 @@ do{
                 console.log(`${o1.name} fuel is ${o1.fuel}`);
                 if (o1.fuel <= 0){
                     console.log("You Won!");
-                    process.exit
+                    process.exit()
                 }
                 
             }
@@ -107,7 +107,7 @@ do{
         }
         if (ask.opt == "Run for your life"){
             console.log("You loose, Better luck next time!");
-            process.exit
+            process.exit()
             
         }
 
@@ -149,7 +149,7 @@ do{
                 console.log(`${o1.name} fuel is ${o1.fuel}`);
                 if (o1.fuel <= 0){
                     console.log("You Won!");
-                    process.exit
+                    process.exit()
                 }
                 
             }
@@ -160,7 +160,7 @@ do{
         }
         if (ask.opt == "Run for your life"){
             console.log("You loose, Better luck next time!");
-            process.exit
+            process.exit()
             
         }
 
@@ -200,7 +200,7 @@ do{
                 console.log(`${o1.name} fuel is ${o1.fuel}`);
                 if (o1.fuel <= 0){
                     console.log("You Won!");
-                    process.exit
+                    process.exit()
                 }
                 
             }
@@ -211,7 +211,7 @@ do{
         }
         if (ask.opt == "Run for your life"){
             console.log("You loose, Better luck next time!");
-            process.exit
+            process.exit()
             
         }
 
